@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:link{color:black;}
+a:visited{color:black;}
+a:hover{color:#FF5800;}
+a:active{color:black;}
+
+header{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+header img{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    margin-top: 29px;
+    display: block;
+}
+.tit{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tit_tet{
+    font-size: 100px;
+    letter-spacing: -0.4px;
+    font-family: 'GmarketSansLight';
+    font-weight: 100;
+    font-style: normal; 
+    margin-top: 100px;
+    display: block;
+    color: white;
+}
+
+section{
+    height: 1296px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+}
+.back01{
+    background-image: url(img/sub01_main.png);
+    height: 996px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+}
+.box01{
+    width: 100%;
+    height: 176px;
+}
+.box01 img{
+     margin: 0 auto;
+     justify-content: center;
+     padding-top: 50px;
+     padding-left: 1200px;
+}
+.box02{
+    width: 778px;
+    height: 159px;
+    background-color: #F2F1EE;
+    margin-left: 950px;
+}
+.box02_01{
+    width: 726px;
+    height: 113px;
+    background-color: #F2F1EE;
+    font-family: 'GmarketSansLight';
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 28px;
+}
+.box03{
+    height: 236px;
+    justify-content: space-between;
+    
+}
+.box03_01{
+    width: 375px;
+    height: 236px;
+    background-color: #F2F1EE;
+    margin-left: 950px;
+    margin-top: 75px;
+    float: left;
+}
+.box03_01_1{
+    background-color: #F2F1EE;
+    font-family: 'GmarketSansLight';
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 32px;
+}
+.box03_01_2{
+    width: 334px;
+    height: 146px;
+    background-color: #F2F1EE;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 17px;
+    font-weight: 100;
+}
+.box03_02{
+    width: 375px;
+    height: 236px;
+    background-color: #F2F1EE;
+    margin-left: 29px;
+    margin-top: 75px;
+    float: left;
+}
+.box03_02_1{
+    width: 334px;
+    height: 195px;
+    background-color: #F2F1EE;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 32px;
+    font-weight: 100;
+}
+.box04{
+    width: 778px;
+    height: 247px;
+    background-color: #F2F1EE;
+    margin-left: 950px;
+    margin-top: 140px;
+}
+.box04_01{
+    background-color: #F2F1EE;
+    font-family: 'GmarketSansLight';
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 32px;
+}
+.box04_02{
+    width: 726px;
+    height: 151px;
+    background-color: #F2F1EE;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 19px;
+    font-weight: 100;
+}
+footer{
+    background-color: #F2F1EE;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.6px;
+    font-weight: 100;
+}
